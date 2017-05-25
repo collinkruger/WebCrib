@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Vertically Center | Variation A</title>
+    <meta name="description" content="How to vertically center content | Variation A"/>
+    <meta name="author" content="Collin Kruger" />
+</head>
+<body>
+    <header>
+        <h1>How To Vertically Center Content | Variation A</h1>
+        <a href="#tldr">TL;DR</a><br/>
+        <a href="#the-rest-of-the-story">The Rest Of The Story</a><br/>
+        <a href="/Techniques/VerticallyCenter/Variation-A-Example.html" target="_blank">A Live Example</a>
+    </header>
+    <article id="tldr">
+        <h2>TL;DR</h2>
+        <p>Add the following to a parent element.</p>
+        <pre>
+            <code>
+.the-parent {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+            </code>
+        </pre>
+        <p>Then add the following to a child element.</p>
+        <pre>
+            <code>
+.the-thing-to-vertically-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+            </code>
+        </pre>
+    </article>
+    <article id="the-rest-of-the-story">
+        <h2>The Rest Of The Story</h2>
+        <p>See the example source <a href="https://github.com/collinkruger/WebCrib/blob/master/WebCrib/wwwroot/Techniques/VerticallyCenter/Variation-A-Example.html" target="_blank">Variation-A-Example.html</a> and <a href="https://github.com/collinkruger/WebCrib/blob/master/WebCrib/wwwroot/Techniques/VerticallyCenter/Variation-A-Example.less" target="_blank">Variation-A-Example.less</a> LESS files and a <a href="/Techniques/VerticallyCenter/Variation-A-Example.html" target="_blank">Live Example</a>.</p>
+    </article>
+</body>
+</html>

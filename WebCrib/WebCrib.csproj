@@ -7,6 +7,10 @@
   <ItemGroup>
     <Content Include="wwwroot\Account\Login\A\Index.html" />
     <Content Include="wwwroot\Index.html" />
+    <Content Include="wwwroot\Techniques\VerticallyCenter\Variation-A-Example.html" />
+    <Content Include="wwwroot\Techniques\VerticallyCenter\Variation-A-Example.less" />
+    <Content Include="wwwroot\Techniques\VerticallyCenter\Variation-A-Example.min.css" />
+    <Content Include="wwwroot\Techniques\VerticallyCenter\Variation-A.html" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
